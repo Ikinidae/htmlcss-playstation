@@ -21,8 +21,12 @@
 
 .my-btn {
     color: white;
-    background-color: #363636;
     border-radius: 50px;
+    font-size: 18px;
+}
+
+.login {
+    background-color: #363636;
 }
 
 .search {
@@ -59,9 +63,53 @@
     font-size: 18px;
 }
 
-.my-btn-2 {
-    color: white;
+.buy_now {
     background-color: red;
-    border-radius: 50px;
+}
+
+/* riga con giochi */
+.games {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.games img {
+    width: 90%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+/* ps5 */
+.more_info {
+    background-color: #2d64e6;
+}
+
+.ps5_thumb {
+    width: 100%;
+}
+
+.blue_text {
+    color: #2d64e6;
+    margin-bottom: 0;
+}
+
+.gray_text {
     font-size: 18px;
+    color: gray;
+}
+
+.margin_bottom_50 {
+    margin-bottom: 50px;
+}
+
+.tiny_col {
+    width: 5%;
+}
+
+.abc {
+    width: 20%;
+}
+
+.devices img {
+    width: 100%;
 }
