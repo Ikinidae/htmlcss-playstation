@@ -1,3 +1,67 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+
+/* header */
+.sony {
+    height: 30px;
+    background-color: black;
+}
+
+.sony img {
+    width: 80px;
+    margin-right: 20px;
+}
+
+.navbar img {
+    margin-right: 10px;
+}
+
+.my-btn {
+    color: white;
+    background-color: #363636;
+    border-radius: 50px;
+}
+
+.search {
+    width: 30px;
+}
+
+/* jumbotron */
+.jumbotron {
+    background-image: url(img/jumbo-bg.png);
+    height: 650px;
+    width: 100%;
+    background-position: 50%;
+}
+
+.jumbotron-text {
+    height: 650px;
+    padding-bottom: 50px;
+}
+
+.jumbotron-text img {
+    width: 250px;
+    margin-bottom: 30px;
+}
+
+.jumbotron-text h1 {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.jumbotron-text p {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.my-btn-2 {
+    color: white;
+    background-color: red;
+    border-radius: 50px;
+    font-size: 18px;
+}
