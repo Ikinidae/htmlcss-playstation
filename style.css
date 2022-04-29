@@ -21,7 +21,6 @@
 
 .my-btn {
     color: white;
-    border-radius: 50px;
     font-size: 18px;
 }
 
@@ -37,8 +36,7 @@
 .jumbotron {
     background-image: url(img/jumbo-bg.png);
     height: 650px;
-    width: 100%;
-    background-position: 50%;
+    background-position: center;
 }
 
 .jumbotron-text {
@@ -80,6 +78,10 @@
 }
 
 /* ps5 */
+.ps5 {
+    margin-bottom: 50px;
+}
+
 .more_info {
     background-color: #2d64e6;
 }
@@ -94,7 +96,7 @@
 }
 
 .gray_text {
-    font-size: 18px;
+    font-size: 20px;
     color: gray;
 }
 
@@ -107,9 +109,90 @@
 }
 
 .abc {
-    width: 20%;
+    width: 18%;
 }
 
 .devices img {
     width: 100%;
+}
+
+.device_hover {
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.device_hover:hover {
+    opacity: 1;
+    border-bottom: solid 2px #2d64e6;
+}
+
+/* it takes two */
+.it_takes_two {
+    background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+    height: 800px;
+    background-position: center;
+}
+
+.it_takes_two_text {
+    height: 800px;
+}
+
+.it_takes_two_text img {
+    width: 250px;
+    margin-bottom: 30px;
+}
+
+.it_takes_two_text h1 {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.it_takes_two_text p {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+/* nuove uscite */
+.new_games {
+    background-color: #1f1f1f;
+    height: 750px;
+}
+
+.new_games h1, h3 {
+    color: white;
+}
+
+.new_games_text {
+    padding-top: 40px;
+}
+
+.new_games img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+
+.new_games_block {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.item {
+    margin-bottom: 30px;
+}
+
+.item span {
+    color: white;
+    font-size: 18px;
+}
+
+/* ps4 */
+.ps4 {
+    margin-top: 80px;
+}
+
+.align_center {
+    text-align: center;
 }
