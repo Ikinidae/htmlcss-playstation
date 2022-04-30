@@ -202,3 +202,39 @@
 .ps4 img {
     width: 100%;
 }
+
+/* ps plus */
+.ps_plus {
+    background-color: #bebcbb;
+    height: auto;
+}
+
+.ps_plus_logo {
+    width: 60%;
+    margin-bottom: 40px;
+}
+
+.ps_plus_img {
+    width: 100%;
+}
+
+.btn_ps_plus {
+    background-color: #f8f9fa;
+    color: #2d64e6;
+    margin-top: 20px;
+}
+
+.ps_plus p {
+    font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+    .ps_plus_img {
+        display: none;
+    }
+
+    .ps_plus_text {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+}
