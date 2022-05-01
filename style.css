@@ -228,6 +228,28 @@
     font-size: 18px;
 }
 
+/* sconti */
+.discount {
+    height: auto;
+    margin-top: 30px;
+}
+
+.discount img {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+/* ps now */
+.ps_now {
+    background-color: #161c3b;
+    height: auto;
+}
+
+.ps_now p {
+    font-size: 18px;
+    color: white;
+}
+
 @media screen and (max-width: 768px) {
     .ps_plus_img {
         display: none;
@@ -237,4 +259,20 @@
         padding-top: 30px;
         padding-bottom: 40px;
     }
+}
+
+/* social */
+.social {
+    height: auto;
+    margin-top: 30px;
+}
+
+.social h1 {
+    margin-bottom: 30px;
+}
+
+.social img {
+    width: 100%;
+    margin: 10px;
+    margin-bottom: 40px;
 }
