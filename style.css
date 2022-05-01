@@ -2,8 +2,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
 /* header */
 .sony {
     height: 30px;
@@ -275,4 +273,54 @@
     width: 100%;
     margin: 10px;
     margin-bottom: 40px;
+}
+
+/* footer */
+footer {
+    height: auto;
+    background-color: #00439c;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.ps_country {
+    margin-bottom: 50px;
+}
+
+.ps_footer {
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+.language img {
+    width: 20px;
+}
+
+.language span {
+    color: white;
+}
+
+.sie img {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.sie p {
+    color: white;
+}
+
+.link a {
+    margin-bottom: 5px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.link {
+    margin-bottom: 50px;
+}
+
+.more_info {
+    color: white;
+    background-color:#00439c;
 }
